@@ -33,12 +33,6 @@
     }
 }
 
-@media screen and (max-width: 1279px) and (min-width: 992px) {
-    .project-card-body .btn-project.view-project {
-        margin-bottom: 5px;
-    }
-}
-
 @media screen and (max-width: 1191px) {
     .contact {
         padding: 0 25% 300px;
@@ -93,12 +87,6 @@
     }
 }
 
-@media screen and (max-width: 852px) and (min-width: 768px) {
-    .project-card-body .btn-project.view-project {
-        margin-bottom: 5px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .challenges {
         padding: 0 5% 300px;
@@ -144,7 +132,7 @@
 /* Mobile styles */
 @media screen and (max-width: 450px) {
     .title h1, #oliverdenton {
-        font-size: 3.25rem;
+        font-size: 3.5rem;
     }
 
     .subheading, .description {
@@ -198,10 +186,6 @@
 }
 
 @media screen and (max-width: 426px) {
-    /* .project-card-body .btn-project.view-project {
-        margin-bottom: 5px;
-    } */
-
     .projects, .skills, .challenges {
         margin-left: 7.5%;
         margin-right: 7.5%;
@@ -242,7 +226,7 @@
     }
 
     #oliverdenton, #se {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .about {

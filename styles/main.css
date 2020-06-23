@@ -276,7 +276,7 @@ div.fixed-right {
 .project-card-body .btn-project {
     padding: 12px 18px;
     width: 7.25rem;
-    margin: 0 auto;
+    margin: 0 auto 5px;
 }
 
 .project-card.card > .card-body.project-card-body > p.code-font.grey.project-tools {
