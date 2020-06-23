@@ -118,7 +118,6 @@ h4 {
 
 .explore {
     position: relative;
-    /* z-index: -1; */
     text-align: center;
     padding: 80px 0 325px 0;
 }
@@ -148,7 +147,7 @@ div.inflow-left {
     position: relative; 
     z-index: 1;
 }
-div.positioner-left {position: absolute; left: 0;} /*may not be needed: see below*/
+div.positioner-left {position: absolute; left: 0;}
 div.fixed-left {
     width: 7rem; 
     height: 100%; 
@@ -201,7 +200,7 @@ div.inflow-right {
     position: relative; 
     z-index: 1;
 }
-div.positioner-right {position: absolute; right: 0;} /*may not be needed: see below*/
+div.positioner-right {position: absolute; right: 0;}
 html,body{overflow-x: hidden;}
 div.fixed-right {
     width: 7rem; 
@@ -258,7 +257,6 @@ div.fixed-right {
 }
 
 .project-card {
-    /* height: 21rem; */
     border: 1px solid #21e6c1;
     background: linear-gradient(110deg, rgb(20, 37, 61) 60%, rgb(23, 42, 69) 60%);
 }
@@ -272,23 +270,12 @@ div.fixed-right {
 }
 
 .project-card-body {
-    /* position: relative;
-    bottom: 10px; */
     transform: translateY(-7.75rem);
-}
-
-.project-card-title {
-    /* font-size: 2rem; */
-    /* padding-bottom: 1.2rem; */
-}
-
-.project-card-text {
-    /* padding-bottom: .6rem; */
 }
 
 .project-card-body .btn-project {
     padding: 12px 18px;
-    width: 7rem;
+    width: 7.1rem;
     margin: 0 auto;
 }
 
