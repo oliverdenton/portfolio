@@ -14,6 +14,7 @@
     }
 }
 
+/* Laptop styles */
 @media screen and (max-width: 1440px) and (min-height: 700px) {
     .title {
         padding-top: 80px;
@@ -50,6 +51,7 @@
     }
 }
 
+/* iPad Pro */
 @media screen and (width: 1024px) and (height: 1366px) {
     .title {
         padding-top: 200px;
@@ -84,8 +86,7 @@
     }
 }
 
-/* @media screen and (max-width: ) */
-
+/* Tablet sizes */
 @media screen and (max-width: 858px) {
     .contact {
         padding: 0 20% 320px;
@@ -140,6 +141,7 @@
     }
 }
 
+/* Mobile styles */
 @media screen and (max-width: 450px) {
     .title h1, #oliverdenton {
         font-size: 3.25rem;
