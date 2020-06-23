@@ -1,0 +1,269 @@
+@media screen and (max-width: 1511px) {
+    .about {
+        padding: 60px 33% 0 33%;
+    }
+}
+
+@media screen and (min-width: 1496px) {
+    .card-img-top {
+        margin-bottom: 1rem;
+    }
+
+    .project-card-body {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 1440px) and (min-height: 700px) {
+    .title {
+        padding-top: 80px;
+    }
+
+    .explore {
+        padding-bottom: 275px;
+    }
+
+    .challenges {
+        padding-bottom: 200px;
+    }
+
+    .contact {
+        padding-bottom: 220px;
+    }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 992px) {
+    .project-card-body .btn-project.view-project {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1191px) {
+    .contact {
+        padding: 0 25% 300px;
+    }
+}
+
+@media screen and (max-width: 1142px) {
+    .about {
+        padding: 60px 25% 0 25%;
+    }
+}
+
+@media screen and (width: 1024px) and (height: 1366px) {
+    .title {
+        padding-top: 200px;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    p#contact, .title p, #main-button, .description, .btn-contact, .footer-text {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+    }
+
+    .challenges {
+        padding-bottom: 450px;
+    }
+
+    .contact {
+        padding-bottom: 450px;
+    }
+
+    .contact h3{
+        font-size: 4rem;
+    }
+
+    .btn-contact {
+        width: 12rem;
+    }
+}
+
+/* @media screen and (max-width: ) */
+
+@media screen and (max-width: 858px) {
+    .contact {
+        padding: 0 20% 320px;
+    }
+}
+
+@media screen and (max-width: 852px) and (min-width: 768px) {
+    .project-card-body .btn-project.view-project {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .challenges {
+        padding: 0 5% 300px;
+    }
+
+    .projects {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .title h1, #oliverdenton {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 628px) {
+    div.inflow-left, div.positioner-left, div.fixed-left, .sidenav-line-left, .fa-github, .fa-linkedin, .fa-file-pdf, .fa-instagram, .email-link, div.inflow-right, div.positioner-right, div.fixed-right, .sidenav-line-right {
+        display: none;
+    }
+
+    .about {
+        padding: 60px 15% 0 15%;
+    }
+
+    h4, .title p {
+        font-size: .8rem;
+    }
+
+    .projects {
+        padding: 0;
+    }
+
+    .challenges {
+        padding: 0 0 300px;
+    }
+
+    .contact {
+        padding: 0 15% 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title h1, #oliverdenton {
+        font-size: 3.25rem;
+    }
+
+    .subheading, .description {
+        font-size: 1rem;
+    }
+
+    .contact h3 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-height: 750px) {
+    .title {
+        padding-top: 110px;
+    } 
+
+    h4 {
+        font-size: .9rem;
+    }
+
+    .challenges {
+        padding-bottom: 165px;
+    }
+
+    .contact {
+        padding: 0 12% 200px;
+    }
+}
+
+@media screen and (max-width: 450px) and (max-height: 750px) {
+     .title {
+        padding-top: 80px;
+    } 
+
+    .about {
+        padding-top: 45px;
+    }
+
+    .explore {
+        padding-top: 45px;
+        padding-bottom: 250px;
+    }
+
+    .challenges {
+        padding-bottom: 100px;
+    }
+
+    .contact {
+        padding: 0 12% 140px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    /* .project-card-body .btn-project.view-project {
+        margin-bottom: 5px;
+    } */
+
+    .projects, .skills, .challenges {
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    #projects-subheading, #skills-subheading {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .skills {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    p#contact {
+        font-size: .9rem;
+    }
+
+    #contact-heading {
+        font-size: 3rem;
+    }
+
+    .contact {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .description {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px){
+    .title {
+        padding-top: 40px;
+    }
+
+    #oliverdenton, #se {
+        font-size: 2.5rem;
+    }
+
+    .about {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 343px) {
+    .btn-contact {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .title {
+        padding-top: 40px;
+    }
+
+    .about {
+        padding-top: 25px;
+    }
+
+    .explore {
+        padding-top: 30px;
+    }
+}

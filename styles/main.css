@@ -1,5 +1,5 @@
 /* Themes */
-.projects, .skills-section, .contact {
+.projects, .challenges, .skills, .contact {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -120,19 +120,23 @@ h4 {
     position: relative;
     /* z-index: -1; */
     text-align: center;
-    padding: 80px 0 375px 0;
+    padding: 80px 0 325px 0;
 }
 
 .btn.btn-outline-primary {
     color: #21e6c1;
     border-color: #21e6c1;
-    padding: 13px 26px;
+    padding: 14px 26px;
 }
 
 .btn.btn-outline-primary:hover {
     border-color: #21e6c1;
     background-color: rgba(33, 230, 194, 0.1);
     color: #21e6c1;
+}
+
+#main-button {
+    font-size: 13px;
 }
 
 /* Fixed side menus */
@@ -239,119 +243,92 @@ div.fixed-right {
 
 /* Projects section */
 #projects-subheading {
-    padding-bottom: 150px;
+    padding: 50px 15% 150px 15%;
 }
 
 .projects {
-    padding: 0 15%;
-    /* position: absolute; */
-    z-index: 0;
-    text-align: center;
+    margin: 0 15%;
 }
 
 .card-holder {
+    margin: 0 15%;
     margin: 0 auto;
-    min-width: 22rem;
-    padding: 30px;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 .project-card {
+    /* height: 21rem; */
     border: 1px solid #21e6c1;
-    height: 20rem;
-    margin-bottom: 7.5rem;
     background: linear-gradient(110deg, rgb(20, 37, 61) 60%, rgb(23, 42, 69) 60%);
-    /* background-color: rgb(20, 37, 61); */
 }
 
 .card-img-top {
     transform: translateY(-50%);
     width: 80%;
-    height: 60%;
-    margin: 0 auto;
-    /* border: 1px solid #21e6c1; */
+    height: auto;
+    margin: 0 auto 2.75rem;
     box-shadow: 0 20px 50px rgba(0,0,0,.6);
 }
 
 .project-card-body {
-    /* margin: auto;
-    position: relative; */
-    transform: translateY(-5rem);
+    /* position: relative;
+    bottom: 10px; */
+    transform: translateY(-7.75rem);
 }
 
 .project-card-title {
-    padding-bottom: 1rem;
+    /* font-size: 2rem; */
+    /* padding-bottom: 1.2rem; */
 }
 
 .project-card-text {
-    padding-bottom: 2rem;
+    /* padding-bottom: .6rem; */
 }
 
-.btn-project {
-    margin-bottom: 1rem;
+.project-card-body .btn-project {
+    padding: 12px 18px;
+    width: 6.95rem;
+    margin: 0 auto;
+}
+
+.project-card.card > .card-body.project-card-body > p.code-font.grey.project-tools {
+    transform: translateY(2rem);
 }
 
 /* Skills section */
-.skills-section {
-    padding-bottom: 350px;
+#skills-subheading {
+    padding: 100px 15% 50px;
+}
+
+.skills {
+    text-align: center;
+    padding: 0 15% 50px;
+}
+
+.skill-container {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.skills p {
+    display: inline;
+    padding: 0 10px;
+}
+
+.challenges {
+    padding-bottom: 300px;
     margin: 0 15%;
 }
 
-.skill-box {
-    background: linear-gradient(110deg, rgb(20, 37, 61) 60%, rgb(23, 42, 69) 60%);
-    box-shadow: 0 20px 50px rgba(0,0,0,.5);
-    border-radius: 4px;
-    padding: 25px 40px;
-}
-
-.skill p {
-    margin: 0 0 2px 0;
-}
-
-.skill-bar  {
-    background: #262626;
-    padding: 4px;
-    box-sizing: border-box;
-    border: 1px solid #21e6c1;
-    border-radius: .25rem;
-    margin-bottom: 10px;
-}
-
-.skill-level {
-    background: #21e6c1;
-    height: 8px;
-}
-
-#html {
-    width: 70%;
-}
-#css {
-    width: 70%;
-}
-#js {
-    width: 80%;
-}
-#java {
-    width: 80%;
-}
-#go {
-    width: 50%;
-}
-#node {
-    width: 80%;
-}
-#react {
-    width: 65%;
-}
-#mongo {
-    width: 65%;
-}
-#scala {
-    width: 50%;
+.challenge-holder {
+    padding: 0;
 }
 
 /* Skill cards */
 .skill-card-holder {
-    padding: 0 0 30px 60px;
+    padding: 0 15px 60px;
 }
 
 .skill-card {
@@ -376,6 +353,10 @@ div.fixed-right {
 
 .skill-card-body {
     padding-top: 0;
+}
+
+.card-text a:hover{
+    color: #21e6c1;
 }
 
 /* Subheadings */

@@ -20,6 +20,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <title>Oliver Denton</title>
     <link rel="icon" href="images/favicon.png">
 </head>
@@ -37,13 +38,15 @@
             <!-- Collapsable mobile content -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link code-font grey" href="#"><span class="turqoise">00. </span> Projects</a>
+                    <a class="nav-link code-font grey" href="#projects-subheading"><span class="turqoise">00. </span>
+                        Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link code-font grey" href="#"><span class="turqoise">01. </span> Skills</a>
+                    <a class="nav-link code-font grey" href="#skills-subheading"><span class="turqoise">01. </span>
+                        Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link code-font grey" href="#"><span class="turqoise">02. </span> Contact</a>
+                    <a class="nav-link code-font grey" href="#contact"><span class="turqoise">02. </span> Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link code-font grey" href="CV.pdf"><span class="turqoise">03. </span> Resume</a>
@@ -61,14 +64,15 @@
     <!-- About -->
     <div class="container-fluid about bg">
         <h4 class="center grey">Undergraduate Artificial Intelligence and Computer Science student at the University of
-            Sheffield. Mission statement blah blah. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+            Sheffield. My current interests include backend development and machine learning but I can't wait to
+            discover
+            what else the industry has to offer. Not afraid to ask questions or learn new technologies and frameworks.
+        </h4>
     </div>
     <!-- Explore button -->
     <div class="container-fluid explore bg">
-        <a class="btn btn-outline-primary btn-lg code-font" href="#" role="button">Explore my work <i
-                class="fas fa-angle-double-down"></i></a>
+        <a class="btn btn-outline-primary btn-lg code-font" id="main-button" href="#projects-subheading"
+            role="button">Explore my work <i class="fas fa-angle-double-down"></i></a>
     </div>
 
     <!-- Left side-nav -->
@@ -103,41 +107,63 @@
     <!-- Project cards -->
     <div class="row projects bg">
         <div class="col-lg-4 col-md-6 card-holder">
-            <div class="project-card card">
+            <div class="project-card card h-75">
                 <img src="images/placeholder1.jpg" class="card-img-top" alt="...">
                 <div class="project-card-body card-body my-auto">
-                    <h5 class="project-card-title card-title grey my-auto">Special title treatment</h5>
-                    <p class="project-card-text card-text grey my-auto">With supporting text below as a natural lead-in
+                    <h5 class="project-card-title card-title grey">Project title</h5>
+                    <p class="project-card-text card-text grey">With descriptive supporting text below as a natural
+                        lead-in
                         to additional
-                        content.</p>
-                    <a href="#" class="btn btn-outline-primary btn-project code-font">View project <i
-                            class="fas fa-angle-double-right"></i></a>
+                        content.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary btn-project code-font view-project">Project
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-project code-font">Code
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                    <p class="code-font grey project-tools style=" margin-top: 1rem 0 0;"><i class="fas fa-tools"></i>
+                        HTML5, CSS3, Bootstrap 4</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 card-holder">
-            <div class="project-card card">
+            <div class="project-card card h-75">
                 <img src="images/placeholder2.jpg" class="card-img-top" alt="...">
                 <div class="card-body project-card-body my-auto">
-                    <h5 class="card-title project-card-title grey my-auto">Special title treatment</h5>
-                    <p class="card-text project-card-text grey my-auto">With supporting text below as a natural lead-in
+                    <h5 class="card-title project-card-title grey">Project title</h5>
+                    <p class="card-text project-card-text grey">With descriptive supporting text below as a natural
+                        lead-in
                         to additional
                         content.</p>
-                    <a href="#" class="btn btn-outline-primary btn-project code-font">View project <i
-                            class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="btn btn-outline-primary btn-project code-font view-project">Project
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-project code-font">Code
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                    <p class="code-font grey project-tools style=" margin-top: 1rem 0 0;"><i class="fas fa-tools"></i>
+                        HTML5, CSS3, Bootstrap 4</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-6 card-holder">
-            <div class="project-card card">
+            <div class="project-card card h-75">
                 <img src="images/placeholder3.jpg" class="card-img-top" alt="...">
                 <div class="card-body project-card-body my-auto">
-                    <h5 class="card-title project-card-title grey my-auto">Special title treatment</h5>
-                    <p class="card-text project-card-text grey my-auto">With supporting text below as a natural lead-in
+                    <h5 class="card-title project-card-title grey">Project title</h5>
+                    <p class="card-text project-card-text grey">With descriptive supporting text below as a natural
+                        lead-in
                         to additional
                         content.</p>
-                    <a href="#" class="btn btn-outline-primary btn-project code-font">View project <i
-                            class="fas fa-angle-double-right"></i></a>
+                    <a href="#" class="btn btn-outline-primary btn-project code-font view-project">Project
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-primary btn-project code-font">Code
+                        <i class="fas fa-angle-double-right"></i>
+                    </a>
+                    <p class="code-font grey project-tools" style="margin-top: 1rem 0 0;"><i class="fas fa-tools"></i>
+                        HTML5, CSS3, Bootstrap 4</p>
                 </div>
             </div>
         </div>
@@ -145,117 +171,130 @@
 
     <!-- Skills section -->
     <div class="container-fluid">
-        <h6 class="grey" id="skills-subheading"><span class="code-font turqoise subheading">01. </span> Skills & Code
+        <h6 class="grey" id="skills-subheading"><span class="code-font turqoise subheading">01. </span> Skills
         </h6>
     </div>
-    <!-- Skills visualization -->
-    <div class="row skills-section">
-        <div class="col-lg-8 col-md-12 col-sm-12">
-            <div class="skill-box">
-                <div class="skill">
-                    <p class="grey">HTML5</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="html"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <p class="grey">CSS3/Bootstrap 4</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="css"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <p class="grey">JavaScript ES6</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="js"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <p class="grey">Java</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="java"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <p class="grey">Golang</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="go"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <p class="grey">Node.js/Express.js</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="node"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <p class="grey">MongoDB</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="mongo"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <p class="grey">Scala</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="scala"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <p class="grey">React.js</p>
-                    <div class="skill-bar">
-                        <div class="skill-level" id="react"></div>
-                    </div>
-                </div>
-            </div>
+    <div class="container-fluid skills">
+        <div class="skill-container">
+            <p class="grey"><i class="fas fa-caret-right"></i> Java</p>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="skill-container">
+            <p class="grey"><i class="fas fa-caret-right"></i> JavaScript ES6</p>
+        </div>
+        <div class="skill-container">
+            <p class="grey"><i class="fas fa-caret-right"></i> Python</p>
+        </div>
+        <div class="skill-container">
+            <p class="grey"><i class="fas fa-caret-right"></i> HTML5</p>
+        </div>
+        <div class="skill-container">
+            <p class="grey"><i class="fas fa-caret-right"></i> CSS3</p>
+        </div>
+        <div class="skill-container">
+            <p class="grey"><i class="fas fa-caret-right"></i> Bootstrap 4</p>
+        </div>
+        <div class="skill-container">
+            <p class="grey"><i class="fas fa-caret-right"></i> Golang</p>
+        </div>
+        <div class="skill-container">
+            <p class="grey"><i class="fas fa-caret-right"></i> Scala</p>
+        </div>
+    </div>
+    <!-- Coding challenges -->
+    <div class="row challenges">
+        <div class="col-lg-4 col-md-6 col-sm-12 challenge-holder">
             <div class="skill-card-holder">
                 <div class="card skill-card">
-                    <h5 class="card-title skill-card-title grey">Special title treatment</h5>
+                    <h5 class="card-title skill-card-title grey">Coding challenge</h5>
                     <div class="card-body skill-card-body my-auto">
                         <p class="card-text skill-card-text grey my-auto">With supporting text below as a natural
                             lead-in to additional
-                            content. <a class="turqoise code-font" href="#">View <i
+                            content. <br><a class="turqoise code-font" href="#">View <i
                                     class="fas fa-angle-double-right"></i></a>
                         </p>
                     </div>
                 </div>
             </div> <!-- Skill card holder -->
+        </div> <!-- Col -->
+        <div class="col-lg-4 col-md-6 col-sm-12 challenge-holder">
             <div class="skill-card-holder">
                 <div class="card skill-card">
-                    <h5 class="card-title skill-card-title grey">Special title treatment</h5>
+                    <h5 class="card-title skill-card-title grey">Coding challenge</h5>
                     <div class="card-body skill-card-body my-auto">
                         <p class="card-text skill-card-text grey my-auto">With supporting text below as a natural
                             lead-in to additional
-                            content. <a class="turqoise code-font" href="#">View <i
+                            content. <br><a class="turqoise code-font" href="#">View <i
                                     class="fas fa-angle-double-right"></i></a>
                         </p>
                     </div>
                 </div>
             </div> <!-- Skill card holder -->
+        </div> <!-- Col -->
+        <div class="col-lg-4 col-md-6 col-sm-12 challenge-holder">
             <div class="skill-card-holder">
                 <div class="card skill-card">
-                    <h5 class="card-title skill-card-title grey">Special title treatment</h5>
+                    <h5 class="card-title skill-card-title grey">Coding challenge</h5>
                     <div class="card-body skill-card-body my-auto">
                         <p class="card-text skill-card-text grey my-auto">With supporting text below as a natural
                             lead-in to additional
-                            content. <a class="turqoise code-font" href="#">View <i
+                            content. <br><a class="turqoise code-font" href="#">View <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- Card holder -->
+        </div> <!-- Col -->
+        <div class="col-lg-4 col-md-6 col-sm-12 challenge-holder">
+            <div class="skill-card-holder">
+                <div class="card skill-card">
+                    <h5 class="card-title skill-card-title grey">Coding challenge</h5>
+                    <div class="card-body skill-card-body my-auto">
+                        <p class="card-text skill-card-text grey my-auto">With supporting text below as a natural
+                            lead-in to additional
+                            content. <br><a class="turqoise code-font" href="#">View <i
                                     class="fas fa-angle-double-right"></i></a>
                         </p>
                     </div>
                 </div>
             </div> <!-- Skill card holder -->
-        </div> <!-- Skill card deck -->
+        </div> <!-- Col -->
+        <div class="col-lg-4 col-md-6 col-sm-12 challenge-holder">
+            <div class="skill-card-holder">
+                <div class="card skill-card">
+                    <h5 class="card-title skill-card-title grey">Coding challenge</h5>
+                    <div class="card-body skill-card-body my-auto">
+                        <p class="card-text skill-card-text grey my-auto">With supporting text below as a natural
+                            lead-in to additional
+                            content. <br><a class="turqoise code-font" href="#">View <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- Skill card holder -->
+        </div> <!-- Col -->
+        <div class="col-lg-4 col-md-6 col-sm-12 challenge-holder">
+            <div class="skill-card-holder">
+                <div class="card skill-card">
+                    <h5 class="card-title skill-card-title grey">Coding challenge</h5>
+                    <div class="card-body skill-card-body my-auto">
+                        <p class="card-text skill-card-text grey my-auto">With supporting text below as a natural
+                            lead-in to additional
+                            content. <br><a class="turqoise code-font" href="#">View <i
+                                    class="fas fa-angle-double-right"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- Card holder -->
+        </div> <!-- Col -->
     </div> <!-- Skills section-->
 
     <!-- Contact section -->
     <div class="container-fluid contact">
-        <p class="turqoise code-font center subheading">03. What's Next?</p>
+        <p class="turqoise code-font center subheading" id="contact">02. What's Next?</p>
         <h3 class="grey" id="contact-heading">Get In Touch</h3>
-        <p class="description grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+        <p class="description grey">Always looking for new and interesting opportunities. Keen to see how teams of
+            software engineers operate in a professional environment. Looking to establish a clearer vision for my
+            career and gain experience in the field. My inbox is always open!
         </p>
         <a href="CV.pdf" class="btn btn-outline-primary btn-contact code-font">View CV <i
                 class="fas fa-angle-double-right"></i>
@@ -269,8 +308,9 @@
     <footer>
         <div class="cotainer-fluid center">
             <p class="footer-text code-font">Built by Oliver Denton 2020</p>
-            <p class="footer-text code-font">Navigate: <a class="footer-text footer-link" href="#">Projects</a> <a
-                    class="footer-text footer-link" href="#">Skills & Code</a></p>
+            <p class="footer-text code-font">Navigate: <a class="footer-text footer-link"
+                    href="#projects-subheading">Projects</a> <a class="footer-text footer-link"
+                    href="#skills-subheading">Skills & Code</a></p>
         </div>
     </footer>
 
