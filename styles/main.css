@@ -283,6 +283,10 @@ div.fixed-right {
     transform: translateY(2rem);
 }
 
+.project-tools {
+    padding-bottom: 12px;
+}
+
 /* Skills section */
 #skills-subheading {
     padding: 100px 15% 50px;
