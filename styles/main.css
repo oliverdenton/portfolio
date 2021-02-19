@@ -253,7 +253,7 @@ div.fixed-right {
     margin: 0 15%;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 0;
 }
 
 .project-card {
@@ -285,6 +285,10 @@ div.fixed-right {
 
 .project-tools {
     padding-bottom: 12px;
+}
+
+.other-work {
+    transform: translateY(-75px);
 }
 
 /* Skills section */
